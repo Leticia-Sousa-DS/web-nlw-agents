@@ -1,7 +1,8 @@
-/** biome-ignore-all lint/suspicious/noConsole: <explanation> */
-import { Button } from "@/components/ui/button";
+/** biome-ignore-all lint/suspicious/noConsole: necessário para verificar o funcionamento */
+
 import { useRef, useState } from "react";
 import { Navigate, useParams } from "react-router-dom";
+import { Button } from "@/components/ui/button";
 
 const isRecordingSupported = !!navigator.mediaDevices 
 && typeof navigator.mediaDevices.getUserMedia === 'function'
